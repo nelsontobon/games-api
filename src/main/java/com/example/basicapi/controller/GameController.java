@@ -6,15 +6,18 @@ import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import static com.example.basicapi.utils.constants.ConstantsURL.GAMES;
+import static com.example.basicapi.utils.constants.ConstantsURL.ID_PARAM;
+
 
 @AllArgsConstructor
 @RestController()
-@RequestMapping("/games")
+@RequestMapping(GAMES)
 public class GameController {
 
     private final GameService gameService;
 
-    @GetMapping("/{id}")
+    @GetMapping(ID_PARAM)
     public ResponseEntity<Game> getGameById(@PathVariable Long id) {
         return ResponseEntity.ok(gameService.getGameById(id));
     }
@@ -24,12 +27,12 @@ public class GameController {
         return ResponseEntity.ok(gameService.createGame(game));
     }
 
-    @PutMapping("/{id}")
+    @PutMapping(ID_PARAM)
     public ResponseEntity<Game>  updateGame(@PathVariable Long id, @RequestBody Game game) {
         return ResponseEntity.ok(gameService.updateGame(id, game));
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping(ID_PARAM)
     public void deleteGame(@PathVariable Long id) {
         gameService.deleteGame(id);
 
