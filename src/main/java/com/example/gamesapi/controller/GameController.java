@@ -1,13 +1,13 @@
-package com.example.basicapi.controller;
+package com.example.gamesapi.controller;
 
-import com.example.basicapi.entity.Game;
-import com.example.basicapi.service.GameService;
+import com.example.gamesapi.entity.Game;
+import com.example.gamesapi.service.GameService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import static com.example.basicapi.utils.constants.ConstantsURL.GAMES;
-import static com.example.basicapi.utils.constants.ConstantsURL.ID_PARAM;
+import static com.example.gamesapi.utils.constants.ConstantsURL.GAMES;
+import static com.example.gamesapi.utils.constants.ConstantsURL.ID_PARAM;
 
 
 @AllArgsConstructor

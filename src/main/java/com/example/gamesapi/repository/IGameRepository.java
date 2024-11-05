@@ -1,8 +1,7 @@
-package com.example.basicapi.repository;
+package com.example.gamesapi.repository;
 
-import com.example.basicapi.entity.Game;
+import com.example.gamesapi.entity.Game;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 public interface IGameRepository extends CrudRepository<Game, Long> {
 }

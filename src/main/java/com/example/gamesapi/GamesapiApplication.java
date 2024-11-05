@@ -1,13 +1,13 @@
-package com.example.basicapi;
+package com.example.gamesapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BasicapiApplication {
+public class GamesapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BasicapiApplication.class, args);
+		SpringApplication.run(GamesapiApplication.class, args);
 	}
 
 }

@@ -1,8 +1,8 @@
-package com.example.basicapi.service;
+package com.example.gamesapi.service;
 
-import com.example.basicapi.entity.Game;
-import com.example.basicapi.exceptions.GameException;
-import com.example.basicapi.repository.IGameRepository;
+import com.example.gamesapi.entity.Game;
+import com.example.gamesapi.exceptions.GameException;
+import com.example.gamesapi.repository.IGameRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

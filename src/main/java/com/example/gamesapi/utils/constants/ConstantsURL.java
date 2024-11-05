@@ -1,4 +1,4 @@
-package com.example.basicapi.utils.constants;
+package com.example.gamesapi.utils.constants;
 
 public class ConstantsURL {
 

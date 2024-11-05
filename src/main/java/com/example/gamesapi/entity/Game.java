@@ -1,4 +1,4 @@
-package com.example.basicapi.entity;
+package com.example.gamesapi.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

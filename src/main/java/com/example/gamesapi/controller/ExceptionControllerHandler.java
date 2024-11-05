@@ -1,6 +1,6 @@
-package com.example.basicapi.controller;
+package com.example.gamesapi.controller;
 
-import com.example.basicapi.exceptions.GameException;
+import com.example.gamesapi.exceptions.GameException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

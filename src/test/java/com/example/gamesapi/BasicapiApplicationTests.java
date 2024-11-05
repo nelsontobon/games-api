@@ -1,4 +1,4 @@
-package com.example.basicapi;
+package com.example.gamesapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
