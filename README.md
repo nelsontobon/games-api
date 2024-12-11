@@ -1,1 +1,1 @@
-# api-example
+# Games api
