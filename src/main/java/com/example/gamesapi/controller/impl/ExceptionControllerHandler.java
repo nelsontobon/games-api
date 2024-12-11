@@ -1,4 +1,4 @@
-package com.example.gamesapi.controller;
+package com.example.gamesapi.controller.impl;
 
 import com.example.gamesapi.exceptions.GameException;
 import org.springframework.http.ResponseEntity;
